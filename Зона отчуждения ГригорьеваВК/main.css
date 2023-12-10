@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+
+.themed-grid-col {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgb(48, 46, 46);
+    border: 6px solid rgba(186, 34, 7, 0.2);
+    text-align: center;
+}
+
+body {
+    background-image: url(https://i.postimg.cc/HWc71L9c/1.jpg);
+    color: rgb(248, 248, 240);
+    text-align: center;
+
+    h1 {
+        color: aliceblue;
+        align-items: center;
+    }
+
+    h2 {
+        color: aliceblue;
+        align-items: center;
+    }
+
+    h3 {
+        color: aliceblue;
+    }
+
+    p {
+        size: 1.5em;
+        color: aliceblue;
+    }
+
+    .footer {
+        background-color: rgba(177, 177, 183, 0.312);
+        flex-shrink: 0;
+        align-items: center;
+        color: aliceblue;
+    }
+
+}
+
+@media (min-width: 568px) {
+    .bd-placeholder-img-lg {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        align-items: center;
+        color: aliceblue;
+    }
+
+    .p {
+        font-size: 1.5em;
+        color: rgb(245, 247, 236);
+    }
+
+    .footer {
+        background-color: rgba(140, 140, 143, 0.235);
+        flex-shrink: 0;
+        align-items: center;
+    }
+}

@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(236, 229, 229, 0),
+      rgba(16, 16, 16, 0.995)),
+    url(https://img.goodfon.ru/original/1366x768/4/ab/stalker-stalker-koster-art.jpg);
+  background-size: 100%;
+}
+
+p {
+  margin: 0em 1em 1em 1em;
+  color: aliceblue;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.8;
+  font-family: Lora, serif;
+}
+
+p {
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 1.8;
+  font-family: Lora, serif;
+}
+
+
+button {
+  size: 40px;
+  color: rgb(250, 245, 245);
+  background-color: rgb(240, 5, 5);
+align-items: center;}
+
+
